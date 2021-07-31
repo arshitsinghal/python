@@ -1,0 +1,126 @@
+Problem 1. 
+Write a prorgram to calculate simple interest.
+
+
+P = float(input("Enter the principal amount : "))
+N = float(input("Enter the number of years : "))
+R = float(input("Enter the rate of interest : "))
+SI = (P * N * R)/100
+print("Simple interest :", SI )
+
+
+
+
+
+
+
+
+
+
+
+Problem 2. 
+Write a program to find sum and average of 3 values.
+
+
+a = float(input('Enter 1st Number : '))
+b = float(input('Enter 2nd Number : '))
+c = float(input('Enter 3rd Number : '))
+sum = a + b + c
+avg = sum / 3
+print('Average =', avg);print('Sum =',sum)
+
+
+
+
+
+
+
+
+
+
+
+Problem 3. 
+Write a program to perform the following task.
+The provided code stub reads two integers from STDIN,  and . Add code to print three lines where:
+
+The first line contains the sum of the two numbers.
+The second line contains the difference of the two numbers (first - second).
+The third line contains the product of the two numbers.
+
+
+
+a = input('Enter 1st Number : ')
+b = input('Enter 2nd Number : ')
+a = int(a)
+b = int(b)
+
+print("input -");print(a);print(b)
+
+sum = a + b
+dif = a - b
+product = a * b
+
+print("output -");print(sum);print(dif);print(product)
+
+
+
+
+
+
+
+
+
+
+
+Problem 4: 
+	Read three integers from the keyboard a,b,c and those values in the following order.
+
+max > mid > min
+
+
+a = input('Enter 1st Number : ')
+b = input('Enter 2nd Number : ')
+c = input('Enter 3rd Number : ')
+a = int(a)
+b = int(b)
+c = int(c)
+
+input = (a,b,c)
+print("input");print(a,b,c)
+
+output = sorted(input, reverse=True)
+output = str(output)
+output = output.replace(",", " >")
+print("output");print(output)
+
+
+
+
+
+
+
+
+
+
+
+Problem 5:
+	Read four values from the keyboard a,b,c,d and print the result of a^b + c^d in single line
+
+
+
+
+a = float(input('Enter 1st Number : '))
+b = float(input('Enter 2nd Number : '))
+c = float(input('Enter 3rd Number : '))
+d = float(input('Enter 4th Number : '))
+
+input = (a,b,c,d)
+
+result = (pow(a, b)) + (pow(c,d))
+print("output");print("=",result)
+
+
+
+
+
+
